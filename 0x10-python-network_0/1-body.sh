@@ -1,3 +1,3 @@
 #!/bin/bash                                                                   
 # display the body of the response in silence mode
-curl -sL --fail -X GET "$1";
+curl -s -o /dev/stdout -w "%{http_code}" "$1" 
