@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 # send a request to URL via the command curl and capture the content length
 
 
